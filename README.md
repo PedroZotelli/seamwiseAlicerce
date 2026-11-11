@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/luanmorenommaciel/seamwise/releases"><img src="https://img.shields.io/badge/release-0.2.0-070A0F?labelColor=111720" alt="Release 0.2.0"></a>
+  <a href="https://github.com/PedroZotelli/seamwiseLuan/releases"><img src="https://img.shields.io/badge/release-0.3.0-070A0F?labelColor=111720" alt="Release 0.2.0"></a>
   <img src="https://img.shields.io/badge/python-3.11%2B-2F6BFF?labelColor=111720" alt="Python 3.11+">
   <img src="https://img.shields.io/badge/TaskPlan-v1-29313A?labelColor=111720" alt="TaskPlan v1">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-29313A?labelColor=111720" alt="MIT License"></a>
@@ -74,7 +74,7 @@ The invariant is:
 ## Install
 
 ```bash
-uv tool install "git+https://github.com/luanmorenommaciel/seamwise.git@v0.2.0"
+uv tool install "git+https://github.com/PedroZotelli/seamwiseLuan.git@v0.3.0"
 seamwise --version
 seamwise --json doctor --host core
 ```
@@ -294,7 +294,7 @@ Every command in JSON mode returns exactly one `SeamwiseCLIResult/v1` object:
 ```json
 {
   "contract": "SeamwiseCLIResult/v1",
-  "engine_version": "0.2.0",
+  "engine_version": "0.3.0",
   "schema_version": 1,
   "command": "status",
   "ok": true,
