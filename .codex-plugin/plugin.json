@@ -1,13 +1,13 @@
 {
   "name": "seamwise",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Decompose approved initiatives into a reviewed TaskPlan and digest-bound lineage.",
   "author": {
     "name": "Luan Moreno M. Maciel",
     "url": "https://github.com/luanmorenommaciel"
   },
-  "homepage": "https://github.com/luanmorenommaciel/seamwise",
-  "repository": "https://github.com/luanmorenommaciel/seamwise",
+  "homepage": "https://github.com/PedroZotelli/seamwiseLuan",
+  "repository": "https://github.com/PedroZotelli/seamwiseLuan",
   "license": "MIT",
   "keywords": [
     "architecture",
@@ -26,7 +26,7 @@
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://github.com/luanmorenommaciel/seamwise",
+    "websiteURL": "https://github.com/PedroZotelli/seamwiseLuan",
     "brandColor": "#31D892",
     "defaultPrompt": [
       "Use $seamwise to guide me one confirmed pass at a time from approved initiative to reviewed execution topology.",

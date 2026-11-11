@@ -10,7 +10,7 @@ Drive the shared CLI; do not recreate compiler behavior in the model.
 ## First run
 
 1. Check whether `seamwise` is executable.
-2. If it is absent and the user explicitly asked to install Seamwise, confirm `uv` is available and run `uv tool install "git+https://github.com/luanmorenommaciel/seamwise.git"`. If installation was not explicitly requested, offer that exact command and wait. Never imitate CLI output.
+2. If it is absent and the user explicitly asked to install Seamwise, confirm `uv` is available and run `uv tool install "git+https://github.com/PedroZotelli/seamwiseLuan.git"`. If installation was not explicitly requested, offer that exact command and wait. Never imitate CLI output.
 3. Run `seamwise --json doctor --host core`. Treat any nonzero exit as a blocker and report its diagnostics. Use `seamwise --json capabilities` when a coordinator needs the exact engine contract.
 4. Resolve the intended workspace explicitly when more than one candidate exists. Never silently initialize or switch workspaces.
 
