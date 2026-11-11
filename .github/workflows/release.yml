@@ -27,12 +27,9 @@ jobs:
           python-version: "3.11"
       - run: python -m pip install --disable-pip-version-check uv==0.9.25
       - name: Install exact Task-Spec release
-        env:
-          GH_TOKEN: ${{ secrets.RELEASE_STACK_READ_TOKEN }}
         run: |
-          test -n "$GH_TOKEN" || { echo "::error::RELEASE_STACK_READ_TOKEN is required"; exit 5; }
           engine_dir="$(mktemp -d -t task-spec-engine.XXXXXX)"
-          gh repo clone PedroZotelli/task-specLuan "$engine_dir" -- --quiet
+          git clone --quiet https://github.com/PedroZotelli/task-specAlicerce.git "$engine_dir"
           git -C "$engine_dir" checkout --quiet --detach 0e6180cfc3009bd4ef9cf7ab050b463e10d4af91
           test "$("$engine_dir/bin/taskspec" version)" = "3.8.0"
           printf 'TASKSPEC_BIN=%s/bin/taskspec\n' "$engine_dir" >> "$GITHUB_ENV"
