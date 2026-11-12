@@ -49,7 +49,7 @@ def main() -> int:
         assert manifest["name"] == "seamwise"
         assert manifest["version"] == version
         assert manifest["skills"] == "./skills/"
-        assert manifest["repository"] == "https://github.com/PedroZotelli/seamwiseLuan"
+        assert manifest["repository"] == "https://github.com/PedroZotelli/seamwiseAlicerce"
         assert manifest["license"] == "MIT"
     codex_marketplace = json.loads(
         (root / ".agents/plugins/marketplace.json").read_text(encoding="utf-8")

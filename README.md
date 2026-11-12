@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/PedroZotelli/seamwiseLuan/releases"><img src="https://img.shields.io/badge/release-0.3.0-070A0F?labelColor=111720" alt="Release 0.2.0"></a>
+  <a href="https://github.com/PedroZotelli/seamwiseAlicerce/releases"><img src="https://img.shields.io/badge/release-0.3.0-070A0F?labelColor=111720" alt="Release 0.2.0"></a>
   <img src="https://img.shields.io/badge/python-3.11%2B-2F6BFF?labelColor=111720" alt="Python 3.11+">
   <img src="https://img.shields.io/badge/TaskPlan-v1-29313A?labelColor=111720" alt="TaskPlan v1">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-29313A?labelColor=111720" alt="MIT License"></a>
@@ -74,7 +74,7 @@ The invariant is:
 ## Install
 
 ```bash
-uv tool install "git+https://github.com/PedroZotelli/seamwiseLuan.git@v0.3.0"
+uv tool install "git+https://github.com/PedroZotelli/seamwiseAlicerce.git@v0.3.0"
 seamwise --version
 seamwise --json doctor --host core
 ```
@@ -83,11 +83,11 @@ This fork also runs on Windows. Install it from the fork, with `uv` or with
 plain `pip` in a virtual environment (no administrator rights needed):
 
 ```bash
-uv tool install "git+https://github.com/PedroZotelli/seamwiseLuan.git"
+uv tool install "git+https://github.com/PedroZotelli/seamwiseAlicerce.git"
 # or
 python -m venv .venv
-.venv/Scripts/python -m pip install "git+https://github.com/PedroZotelli/seamwiseLuan.git"   # Windows
-.venv/bin/python -m pip install "git+https://github.com/PedroZotelli/seamwiseLuan.git"       # Linux, macOS
+.venv/Scripts/python -m pip install "git+https://github.com/PedroZotelli/seamwiseAlicerce.git"   # Windows
+.venv/bin/python -m pip install "git+https://github.com/PedroZotelli/seamwiseAlicerce.git"       # Linux, macOS
 ```
 
 Supported platforms: Linux, macOS, and Windows. On Windows, lock and state

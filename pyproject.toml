@@ -44,8 +44,8 @@ dev = [
 seamwise = "seamwise.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/PedroZotelli/seamwiseLuan"
-Repository = "https://github.com/PedroZotelli/seamwiseLuan"
+Homepage = "https://github.com/PedroZotelli/seamwiseAlicerce"
+Repository = "https://github.com/PedroZotelli/seamwiseAlicerce"
 
 [tool.hatch.version]
 path = "VERSION"

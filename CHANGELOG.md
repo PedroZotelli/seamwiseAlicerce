@@ -2,6 +2,13 @@
 
 All notable changes to Seamwise are documented here.
 
+## [Unreleased]
+
+### Changed
+
+- The repository is now `PedroZotelli/seamwiseAlicerce`, a standalone repository (no longer in the original's fork network). Links, install commands and manifests use the new name; GitHub redirects the old one.
+- The CI and release workflows clone the public Task-Spec repository anonymously; they no longer need the `RELEASE_STACK_READ_TOKEN` secret.
+
 ## 0.3.0 — 2026-11-11
 
 First release of Pedro Zotelli's own line of this fork. Authorship of the
@@ -9,10 +16,10 @@ original work stays with Luan Moreno M. Maciel; see `NOTICE`.
 
 ### Changed
 
-- Install, homepage, and repository links point to the fork, https://github.com/PedroZotelli/seamwiseLuan, so
+- Install, homepage, and repository links point to the fork, https://github.com/PedroZotelli/seamwiseAlicerce, so
   nothing on the install path depends on the original repository.
 - The CI and release workflows clone the fork's Task-Spec,
-  https://github.com/PedroZotelli/task-specLuan.
+  https://github.com/PedroZotelli/task-specAlicerce.
 
 ### Added
 
